@@ -10,11 +10,23 @@
 <body>
     <h1>forms demo</h1>
     <form action="/tacos">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="color">
-        <input type="number" placeholder="enter a number">
-
+        <p>
+            <label for="username">Enter a username:</label>
+            <input name="username" id="username" type="text" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter a password</label>
+            <input name="password" id="password" type="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input name="color" id="color" type="color">
+        </p>
+        <p>
+            <label for="number">Enter a number:</label>
+            <input name="num" id="number" type="number" placeholder="enter a number">
+        </p>
+        <button>Submit</button>
     </form>
 </body>
 </html>
