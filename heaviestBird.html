@@ -10,11 +10,18 @@
 <body>
 <h1>Heaviest Bird</h1>
 <table>
+    <thead>
     <tr>
-        <th>Animal</th>
-        <th>Average Mass</th>
-        <th>Flighted</th>
+        <th rowspan="2">Animal</th>
+        <th colspan="2">Average Mass</th>
+        <th rowspan="2">Flighted</th>
     </tr>
+    <tr>
+        <th>KG</th>
+        <th>LB</th>
+    </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>Ostrich</td>
         <td>105</td>
@@ -25,6 +32,7 @@
         <td>90</td>
         <td>No</td>
     </tr>
+    </tbody>
 </table>
 </body>
 </html>
